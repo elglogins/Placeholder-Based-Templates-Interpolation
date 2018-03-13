@@ -46,7 +46,7 @@ namespace PBTP.Example
                 <strong>{{Order.Meetup.StartsOn}} @ {{Order.Meetup.Location.City}} </strong>
             ";
 
-            var result = templateParserService.Parse(model, text);
+            var result = templateParserService.Interpolate(model, text);
             Console.WriteLine(result);
             Console.ReadKey();
         }

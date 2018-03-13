@@ -9,7 +9,7 @@ namespace PBTP.Core.Services
     public class TemplateParserService
     {
 
-        public string Parse(BaseTemplateDataModel data, string text)
+        public string Interpolate(BaseTemplateDataModel data, string text)
         {
             if (data == null)
                 return text;
