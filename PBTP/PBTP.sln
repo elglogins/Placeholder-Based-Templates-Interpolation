@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBTP.Example", "PBTP.Example\PBTP.Example.csproj", "{D112FB9D-4DB7-4F75-BC8F-A801B2102611}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBTP.Core", "PBTP.Core\PBTP.Core.csproj", "{3C2360AE-FACD-4345-9DA2-50160B717901}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D112FB9D-4DB7-4F75-BC8F-A801B2102611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D112FB9D-4DB7-4F75-BC8F-A801B2102611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D112FB9D-4DB7-4F75-BC8F-A801B2102611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2360AE-FACD-4345-9DA2-50160B717901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2360AE-FACD-4345-9DA2-50160B717901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2360AE-FACD-4345-9DA2-50160B717901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2360AE-FACD-4345-9DA2-50160B717901}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

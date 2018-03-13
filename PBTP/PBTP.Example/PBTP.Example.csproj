@@ -42,11 +42,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\EmailAddressModel.cs" />
+    <Compile Include="Models\EmailReceiptMessageDataModel.cs" />
+    <Compile Include="Models\MeetupLocationModel.cs" />
+    <Compile Include="Models\OrderModel.cs" />
+    <Compile Include="Models\MeetupModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PBTP.Core\PBTP.Core.csproj">
+      <Project>{3C2360AE-FACD-4345-9DA2-50160B717901}</Project>
+      <Name>PBTP.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
