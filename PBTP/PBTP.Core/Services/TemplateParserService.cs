@@ -6,7 +6,7 @@ using PBTP.Core.Models;
 
 namespace PBTP.Core.Services
 {
-    public class TemplateParser
+    public class TemplateParserService
     {
 
         public string Parse(BaseTemplateDataModel data, string text)
@@ -37,11 +37,11 @@ namespace PBTP.Core.Services
 
         private object GetPropertyValue(object src, string propName)
         {
-
             if (propName.Contains(".")) //complex type nested
             {
                 var temp = propName.Split(new char[] { '.' }, 2);
-                return GetPropertyValue(GetPropertyValue(src, temp[0]), temp[1]);
+                var parent = GetPropertyValue(src, temp[0]);
+                return GetPropertyValue(parent, temp[1]);
             }
             else
             {
